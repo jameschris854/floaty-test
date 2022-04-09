@@ -1,0 +1,31 @@
+.bot-container {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bot-wrapper {
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+}
+
+.header-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
